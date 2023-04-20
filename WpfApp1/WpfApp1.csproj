@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="TempZastavka.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="TempZastavka.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="resourses\saves\" />
+  </ItemGroup>
+
+</Project>

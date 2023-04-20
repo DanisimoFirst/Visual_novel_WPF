@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/daniiliskov/Desktop/all/Storage/Новая папка/IDSgame/WpfApp1/WpfApp1/WpfApp1.csproj": {}
+  },
+  "projects": {
+    "/Users/daniiliskov/Desktop/all/Storage/Новая папка/IDSgame/WpfApp1/WpfApp1/WpfApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/daniiliskov/Desktop/all/Storage/Новая папка/IDSgame/WpfApp1/WpfApp1/WpfApp1.csproj",
+        "projectName": "WpfApp1",
+        "projectPath": "/Users/daniiliskov/Desktop/all/Storage/Новая папка/IDSgame/WpfApp1/WpfApp1/WpfApp1.csproj",
+        "packagesPath": "/Users/daniiliskov/.nuget/packages/",
+        "outputPath": "/Users/daniiliskov/Desktop/all/Storage/Новая папка/IDSgame/WpfApp1/WpfApp1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/daniiliskov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

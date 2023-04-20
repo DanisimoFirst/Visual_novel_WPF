@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp1.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920" WindowStyle="None"  WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#FF514A4A">
+    <Grid>
+
+
+        <Button x:Name="button_One" Content="Loading" HorizontalAlignment="Left" Margin="76,894,0,0" VerticalAlignment="Top" Height="138" Width="884" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Foreground="#FFE0E03B" FontSize="20" Click="button_One_Click" FontWeight="Bold"/>
+        <Button x:Name="Button_Two" Content="Loading" HorizontalAlignment="Left" Margin="969,894,0,0" VerticalAlignment="Top" Height="138" Width="884" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Foreground="#FFE0E03B" FontSize="20" Click="button_Two_Click" FontWeight="Bold" />
+        <TextBlock x:Name="Label_Chapter" HorizontalAlignment="Left" Margin="76,660,0,0" VerticalAlignment="Top" Height="165" Width="1786"  Foreground="#FFE0E03B" FontSize="20" TextWrapping="Wrap" FontWeight="Bold"/>
+        <Button x:Name="ExitToMenu" Content="" HorizontalAlignment="Left" Margin="1812,20,0,0" VerticalAlignment="Top" Height="49" Width="50" Click="ExitToMenu_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="\ExitToMenu.png"/>
+
+            </Button.Background>
+        </Button>
+        <Label x:Name="LabelUpperEyelid" Content="" HorizontalAlignment="Center" Margin="0,2,0,0" VerticalAlignment="Top" Width="1920" Background="Black" Height="6"/>
+        <Label x:Name="LabelDownEyelid" Content="" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Bottom" Width="1920" Background="Black" Height="7"/>
+
+    </Grid>
+</Window>
